@@ -19,7 +19,7 @@ export const THREEKIT_PARAMS = {
     // assetId: "2b0eaefb-51be-41d1-9d6d-289d0c6a59b5",
     // orgId: "740f5c0e-d6a5-48aa-a835-a9c7faca6c68",
     // Quadratek
-    authToken: "19a9c589-f441-4466-bf94-eca9283e1567",
+    authToken: "8f130cf0-afdb-4df3-8849-57d0f825e946",
     assetId: "cf747dd9-c284-449c-8e17-c151731354fe",
     orgId: "56a89c5f-ebb1-4950-b456-552b96032eba",
 }
