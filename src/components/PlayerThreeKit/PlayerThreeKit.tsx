@@ -14,10 +14,14 @@ declare global {
 //   3d - config assetId:  a021b220-cc7d-4052-9146-c8bb71ff7138 
 
 export const THREEKIT_PARAMS = {
-    threekitUrl: "https://preview.threekit.com/",
-    authToken: "4fe54944-48a1-4310-8483-09e3464740f7",
-    assetId: "c55e0f55-6e1d-48a0-b233-eba4612a9d9c",
-    orgId: "d302a225-e475-477c-8f4e-e5834f24148e",
+ 
+    // authToken: "8b47f03a-fbbe-4ce8-9ce4-c38581f83b7f",
+    // assetId: "2b0eaefb-51be-41d1-9d6d-289d0c6a59b5",
+    // orgId: "740f5c0e-d6a5-48aa-a835-a9c7faca6c68",
+    // Quadratek
+    authToken: "19a9c589-f441-4466-bf94-eca9283e1567",
+    assetId: "cf747dd9-c284-449c-8e17-c151731354fe",
+    orgId: "56a89c5f-ebb1-4950-b456-552b96032eba",
 }
 
 
@@ -38,12 +42,12 @@ export const PlayerThreeKit = () => {
                     authToken: THREEKIT_PARAMS['authToken'],
                     el: playerEl.current,
                     assetId: THREEKIT_PARAMS['assetId'],
-                    initialConfiguration: {},
-                    showLoadingProgress: {
-                        loadingImage: false,
-                    },
+                    // initialConfiguration: {},
+                    // showLoadingProgress: {
+                    //     loadingImage: false,
+                    // },
                     showConfigurator: true,
-                    display: "image",
+             
                 })
                 .then(async (api: any) => {
                     window.player = api;
